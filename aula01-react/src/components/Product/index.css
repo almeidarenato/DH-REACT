@@ -1,0 +1,32 @@
+/* Criar arquivo Product.css dentro da pasta Product e adicionar: */
+.Product {
+  display: flex;
+  border-bottom: solid 2px #eeeeee;
+  line-height: 3.5em;
+  padding-left: 10px;
+}
+
+/* Criar arquivo ProductDelete.css dentro da pasta Product e adicionar: */
+.ProductDelete {
+  margin-left: 10px;
+  border: none;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: white;
+  background-color: #e03456;
+  display: block;
+  padding: 20px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Criar arquivo ProductName.css dentro da pasta Product e adicionar: */
+.ProductName {
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* Criar arquivo ProductPrice.css dentro da pasta Product e adicionar: */
+.ProductPrice {
+  display: flex;
+}

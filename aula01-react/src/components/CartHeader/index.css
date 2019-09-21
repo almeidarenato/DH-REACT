@@ -1,0 +1,17 @@
+.CartHeader {
+  background-color: #6e7dff;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 10px;
+}
+
+.CartTitle {
+  flex-grow: 1;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.CartTotal {
+  font-weight: 600;
+}

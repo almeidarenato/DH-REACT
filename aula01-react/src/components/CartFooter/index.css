@@ -1,0 +1,36 @@
+/* Adicionar arquivo CartFooter.css na pasta do componente CartFooter */
+.CartFooter {
+  background-color: #6e7dff;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+/* Adicionar arquivo CartFooterButton.css na pasta do componente CartFooter */
+.CartFooterButton {
+  height: 30px;
+  border: unset;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0314b4;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Adicionar arquivo CartFooterForm.css na pasta do componente CartFooter */
+.CartFooterForm {
+  display: flex;
+  width: 100%;
+}
+
+/* Adicionar arquivo CartFooterInput.css na pasta do componente CartFooter */
+.CartFooterInput {
+  height: 30px;
+  margin-right: 10px;
+  flex-grow: 1;
+  padding: 0 0 0 10px;
+  border: unset;
+  border-radius: 5px;
+}
