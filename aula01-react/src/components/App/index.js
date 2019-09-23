@@ -19,8 +19,16 @@ class App extends React.Component{
 deleteProduct (productId) {
   this.setState ({ products:this.state.products.filter((product)=>
     product.id !== productId
-  ) })
+  ) })}
 
+addProduct (product){
+  this.setState({
+    products: [
+      ...this.state.products,
+      {...product,
+      id: Math.floor(Math.random()*100)+1}
+    ]
+  });
 }
   render(){ // renderiza o HTML
     const {products = []} = this.state; // define um valor padrão para o state
@@ -31,6 +39,7 @@ deleteProduct (productId) {
         <Cart 
         products = {products}
         onDeleteProduct ={this.deleteProduct.bind(this)} 
+        onAddProduct={this.addProduct.bind(this)}
         />
         </div>
       

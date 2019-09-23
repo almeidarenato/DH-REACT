@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import CartFooter from '../CartFooter';
 
 //define um componente
-const Cart = ({products,onDeleteProduct}) =>  {
+const Cart = ({products,onDeleteProduct,onAddProduct}) =>  {
 const getTotalPrice = (products) => {
   let total = 0;
 
@@ -34,7 +34,9 @@ return (
     )  // essa function utiliza parenteses para retornar diretamente a tag
     
     )} 
-    <CartFooter />
+    <CartFooter 
+      onAddProduct={onAddProduct}
+    />
   </div>
   )
 };
